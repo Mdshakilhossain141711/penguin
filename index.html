@@ -5,9 +5,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>penguin</title>
+
+    <!-- tailwind css cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- some styles -->
+    <style>
+        .bebas {
+            font-family: "Bebas Neue", sans-serif;
+        }
+
+        .roboto {
+            font-family: "Roboto", sans-serif;
+        }
+    </style>
+
 </head>
 
 <body>
+    <!-- header start -->
+    <header class="bg-[#fffbf0] py-10">
+        <nav class="xl:container mx-auto w-[88%] pb-10 flex justify-between items-center  ">
+            <div class="w-7/12 sm:w-4/12 cursor-pointer">
+                <img src="./icons/logo.png" alt="">
+            </div>
+            <div>
+                <ul class="sm:flex gap-x-5 hidden text-[#3c3c3c] roboto font-medium">
+                    <li class="cursor-pointer"><a href="#">Home</a></li>
+                    <li class="cursor-pointer"><a href="#">Product</a></li>
+                    <li class="cursor-pointer"><a href="#">About us</a></li>
+                    <li class="cursor-pointer"><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="cursor-pointer sm:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+
+            </div>
+        </nav>
+        <!-- banner start  -->
+        <div class="xl:container mx-auto w-[88%] sm:flex items-center">
+            <div class="">
+                <h1 class="bebas font-normal text-5xl leading-tight">
+                    <span class="text-[#fabe4c]">Be the Penguins</span>
+                    <br class="text-[#363958]"> of Winter
+                </h1>
+                <p class="roboto mb-6">
+                    Lorem Ipsum is simply dummy text of the <br>
+                    printing and typesetting industry.
+                </p>
+                <button
+                    class="flex bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-8 py-5 rounded-lg gap-2 roboto text-[#fff] font-medium cursor-pointer">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>
+
+                    </span>
+                    buy now
+                </button>
+            </div>
+
+            <div class="mt-10 sm:mt-0">
+                <img src="./images/model.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <!-- main start -->
+    <main>
+
+    </main>
+
+    <!-- footer start -->
+    <footer>
+
+    </footer>
 
 </body>
 
